@@ -63,7 +63,9 @@ const Invest: NextPage = () => {
             }
           })
         ).then((items) => {
-          setItems(items);
+          if (items[0] != undefined) {
+            setItems(items);
+          }
         });
       })
       .catch((err: any) => {

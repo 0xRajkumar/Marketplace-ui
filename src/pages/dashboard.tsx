@@ -94,7 +94,9 @@ const DashBoard: NextPage = () => {
           })
         )
           .then((result: any) => {
-            setOwnedNFTs(result);
+            if (result[0] != undefined) {
+              setOwnedNFTs(result);
+            }
           })
           .catch((err) => {
             console.log(err);
