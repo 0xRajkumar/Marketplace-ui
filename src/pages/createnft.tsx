@@ -31,7 +31,7 @@ import { Textarea } from "@chakra-ui/react";
 import { create as ipfsHttpClient, Options } from "ipfs-http-client";
 import artDAbi from "../abis/artDAbi.json";
 import { artDAddress } from "../constants/contracts";
-const ipfsApi: any = "https://ipfs.infura.io:5001/api/v0";
+const ipfsApi: any = "https://gateway.pinata.cloud/ipfs/";
 const client = ipfsHttpClient(ipfsApi);
 
 const CreateNft: NextPage = () => {

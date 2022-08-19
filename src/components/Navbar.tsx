@@ -90,7 +90,7 @@ const Navbar: React.FunctionComponent = () => {
           />
         </Box>
         <Heading color={""} display={{ base: "none", md: "block" }}>
-          LOGO
+          ART Dodger
         </Heading>
         <HStack>
           <HStack pr={"10"} display={{ base: "none", md: "block" }}>

@@ -1,3 +1,3 @@
-export const artDAddress: string = "0x3A6ED8a0c373db61863f010756710c69A398fcbD";
+export const artDAddress: string = "0x04caA6010958Bfb8F33186F142bbC8Ed03C3309e";
 export const artDMAddress: string =
-  "0xE4F985416E8683aB1739B22f1541D3e95270EcB3";
+  "0x2bdC9D73E59BC61F32B6DA6494F6A5dFF42A17d4";
